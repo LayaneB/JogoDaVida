@@ -13,6 +13,7 @@ html, css, js e React: básico.
 **Pendências:** 
 * Parte funcional do game;
 * Inclusão das peças do tabuleiro: ilhas, akuma no mi e piratas.
+* A implementação atual não se encontra em um estágio funcional!
 
 **Instalação:**
 
@@ -39,4 +40,6 @@ O jogador deverá então definir quais blocos de água serão transformados em t
 O jogador também poderá distribuir ao longo do tabuleiro akuma no mis. Cada pirata só pode possuir uma e, se a possuir, perde as habilidades de nadar. Assim, se este pirata estiver em um bloco de água, ele morre imediatamente.
 
 Após decidir as localizações e tipos das ilhas, o jogador irá “povoar” o mundo e só então que o jogo poderá ser iniciado.
+
+No arquivo Desafio Captalys, em pdf, as regras do jogo estão ilustradas a fim de melhorar a visualização e compreensão das mesmas.
 
