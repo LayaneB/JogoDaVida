@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+  background-color:rgb(2, 21, 56);
+  background-size: cover;
+}
+.App-header {
+  background: linear-gradient(90deg, rgba(0,10,36,1) 0%, rgba(9,118,121,1) 0%, rgba(0,212,255,1) 100%);
+  max-height: 7em;
+  display: grid;
+  color: white;
+}
+#App-header-title{
+  align-content: start;
+  width:25%;
+  grid-area:1/1/2/2;
+  transform: rotate(-10deg);
+  font-family: 'Lobster', cursive;
+  -webkit-text-stroke-width: 0.001px;
+  -webkit-text-stroke-color: #000;
+}
+#ilhas{
+  text-align: center;
+}
+
+#App-header-container{
+  grid-area:1/2/2/3;
+  justify-self:end;
+}
+img{
+  max-height: 100px;
+  size:cover;
+}
+.App-body-containe{
+  border:black;
+  border-radius: 20px;
+}
+.App-body-buttons{
+  font: 14px;
+  display: flex;
+  justify-content: space-around; 
+  margin-bottom: 10px;
+}
+.btn{
+  background: black;
+  color:white;
+  border-radius: 0.4em;
+  width: 120px;
+  height: 35px;
+}
+footer{
+  background:rgb(2, 21, 56);
+  color:white;
+  height: 38px;
+  text-justify: center;
+  text-align: center;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
